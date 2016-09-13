@@ -80,8 +80,8 @@
    ci = TColor::GetColor("#ffffff");
    leg->SetFillColor(ci);
    leg->SetFillStyle(1001);
-   //TLegendEntry *entry=leg->AddEntry("CLs_right_left_two","CL_{S} RH Model from LH Model","P");
-   TLegendEntry *entry=leg->AddEntry("CLs_right_left_two","CL_{S} RH from LH","P");
+   TLegendEntry *entry=leg->AddEntry("CLs_right_left_two","CL_{S} RH Model from LH Model","P");
+   //TLegendEntry *entry=leg->AddEntry("CLs_right_left_two","CL_{S} RH from LH","P");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
